@@ -40,7 +40,7 @@ After the period of logging download the SD-WAN logs directly from FortiGate or 
 ```
 usage: P95_bandwidth_fortinet.py [-h] [--output OUTPUT] [--interface INTERFACE [INTERFACE ...]] [--healthcheck HEALTHCHECK] [--verbose] file
 ```
-_interface_ and _healtcheck_ parameters are mandatory, you can specify multiple interfaces if you need to agregates the interfaces bandwidth.  
+_interface_ and _healtcheck_ parameters are mandatory, you can specify multiple interfaces if you need to agregate the interfaces bandwidth.  
 If _interface_ and _healtcheck_ not specified, the script will show you the available _healthchecks_ and _interfaces_ in the _logfile_ specified.
 
 Here is an example of output
